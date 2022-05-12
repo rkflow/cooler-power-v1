@@ -11,7 +11,7 @@ module.exports = {
   async rewrites() {
     return [
       {
-        source: "/Home",
+        source: "/",
         destination: "https://cooler-power.webflow.io/",
       },
       {
