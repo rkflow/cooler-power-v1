@@ -1,16 +1,76 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
 
 * {
   box-sizing: border-box;
+  margin: 0em;
+  padding: 0em;
+}
+body {
+  font-family: Inter;
+}
+.cst-headding {
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: -0.02em;
+  text-align: center;
+}
+/* for customizer title */
+.cst-headding-larg {
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: -0.02em;
+  text-align: center; 
+}
+
+/* for customizer sub-title */
+.cst-headding-medium {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: -0.02em;
+  text-align: center;
+}
+
+/* for customizer variety name */
+.cst-text-medium {
+  font-size: 0.875em;
+  font-weight: 400;
+  line-height: 1.313em;
+  letter-spacing: -0.02em;
+  text-align: center;
+}
+
+/* for customizer type name */
+.cst-title-medium-lite {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.cst-title-medium-bold {
+  font-family: Inter;
+  font-size: 0.93em;
+  font-weight: 700;
+  line-height: 1.1em;
+  letter-spacing: 0em;
+  text-align: center;
+ 
+}
+
+.footer-text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+  text-align: left;
+}
+
+.selected-button{
+  border: 3px solid #0AA47F;
 }

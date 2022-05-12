@@ -1,0 +1,13 @@
+.colorContainer{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-left: 40px;
+    width: fit-content;
+    align-items: center;
+}
+
+.coolant_title{
+    margin-bottom: 1.27em;
+}
